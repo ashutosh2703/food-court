@@ -1,0 +1,184 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#logo img {
+    height: 100;
+    width: 75px;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+#home::before {
+    content: "";
+    background: url('macarons-gad59ae09d_1280.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+#navbar ul li {
+    display: inline;
+    padding: 14px;
+    font-size: 20px;
+
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: rgb(4, 53, 27);
+    border-radius: 5px;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: wheat;
+}
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+
+}
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 13px;
+    text-align: center;
+}
+
+#home p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.btn {
+    padding: 6px20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: lightblue;
+    margin: 17px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: bisque;
+    color: red;
+}
+
+
+#service {
+
+    display: flex;
+
+    margin: 1px;
+
+}
+
+#service .box {
+    border: 2px solid brown;
+    padding: 15px;
+    margin: 10px 55px;
+    border-radius: 25px;
+    background-color: rgb(223, 187, 187);
+
+}
+
+#service .box img {
+    height: 160px;
+    display: block;
+    margin: auto;
+    border-radius: 75px;
+}
+
+.h-primary center {
+    margin: 5px;
+    padding: 10px;
+}
+
+.client {
+    cursor: "";
+}
+
+.heading {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.client-item {
+    padding: 40px;
+}
+
+.client-item img {
+    height: 125px;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client::before {
+    content: "";
+    position: absolute;
+    background: url('macarons-gad59ae09d_1280.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 27px;
+}
+
+.contact-item input {
+
+    height: 100%;
+    width: 50%;
+    padding: 5px;
+    border-radius: 9px;
+    font-size: 1.3rem;
+
+}
+
+footer {
+    background-color: black;
+    color: beige;
+    padding: 9px 20px;
+}
